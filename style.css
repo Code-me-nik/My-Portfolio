@@ -80,7 +80,6 @@ button:hover {
   background-color: hsla(0, 0%, 100%, 0.879) ;
   transition:.5s linear;
   color:black;
-  box-shadow:;
 }
 #name1{
   font-size:20px;
