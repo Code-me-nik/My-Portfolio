@@ -1,0 +1,51 @@
+/* []{} */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+body{
+  background-image:url("project images/background3.jpg");
+  /* background:linear-gradient( 25deg , #e08da6, #d6c76f) ; */
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex ;
+  justify-content: center ;
+}
+code{
+  font-size:16px;
+}
+section{
+  width:80%;
+  height:500px;
+  backdrop-filter:blur(6px);
+  background-color: hsla(0, 0%, 65%, 0.305); /* Black w/opacity/see-through */
+  /* border:1px solid white; */
+  border-radius:3px;
+  align-self:center;
+  border-width:2px;
+  border-style:solid;
+  border-color:rgb(218, 215, 215) rgba(130, 129, 129, 0.389) rgb(125, 124, 124) rgb(197, 196, 196);
+}
+nav{
+  color:white;
+  height:50px;
+  display: flex ;
+  justify-content: space-around ;
+  align-items: center ;
+}
+#links{
+  width:40%;
+  height:50px;
+  display: flex ;
+  justify-content: space-between ;
+  align-items: center ;
+}
+#links a {
+  color:white;
+  text-decoration:none;
+}
